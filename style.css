@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.js-ul {
+  list-style: none;
+  border: 8px solid yellow;
+  color: white;
+  width: 327px;
+  height: auto;
+  margin: 2em auto;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.js-li{
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px ;
+}
+.btn{
+    border: none;
+    padding: 15px 50px ;
+    border-radius: 8px;
+    background-color: yellowgreen;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: yellowgreen;
+    border: 2px solid yellowgreen;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: yellowgreen;
+    color: white;
+    opacity: 0.3;
+}
